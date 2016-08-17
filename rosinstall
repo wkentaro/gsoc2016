@@ -1,4 +1,8 @@
 - git:
+    local-name: amazon-picking-challenge/apc_common
+    uri: git@github.com:wkentaro/apc_common.git
+    version: develop
+- git:
     local-name: ros-industrial/fanuc
     uri: https://github.com/ros-industrial/fanuc.git
     version: indigo-devel
@@ -18,3 +22,7 @@
     local-name: ros-simulation/gazebo_ros_demos
     uri: https://github.com/ros-simulation/gazebo_ros_demos.git
     version: master
+- git:
+    local-name: ros-simulation/gazebo_ros_pkgs
+    uri: git@github.com:wkentaro/gazebo_ros_pkgs.git
+    version: develop

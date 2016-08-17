@@ -7,18 +7,14 @@
     uri: https://github.com/wkentaro/fanuc_experimental.git
     version: develop
 - git:
-    local-name: ros-planning/moveit_commander
-    uri: https://github.com/ros-planning/moveit_commander.git
-    version: indigo-devel
+    local-name: ros-planning/moveit
+    uri: git@github.com:wkentaro/moveit.git
+    version: develop
 - git:
-    local-name: ros-planning/moveit_ros
-    uri: https://github.com/wkentaro/moveit_ros.git
+    local-name: ros-planning/moveit_msgs
+    uri: git@github.com:wkentaro/moveit_msgs.git
     version: develop
 - git:
     local-name: ros-simulation/gazebo_ros_demos
     uri: https://github.com/ros-simulation/gazebo_ros_demos.git
     version: master
-- git:
-    local-name: ros-planning/moveit_msgs
-    uri: https://github.com/ros-planning/moveit_msgs.git
-    version: indigo-devel
